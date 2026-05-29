@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "crons": [
+    {
+      "path": "/api/email/every-minute",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/every-hour",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/every-day",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
